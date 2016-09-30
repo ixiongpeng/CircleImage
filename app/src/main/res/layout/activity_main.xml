@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linearlayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--等一个故事的布局，写着玩儿的`(*∩_∩*)′ -->
+    <textview
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="等一个故事/">
+        <!--   圆角button的布局 -->
+        <button android:background="@drawable/fillet"
+            android:id="@+id/filletButton"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="圆角按钮"
+
+            >
+
+        </button>
+    </textview>
+</linearlayout>
+
